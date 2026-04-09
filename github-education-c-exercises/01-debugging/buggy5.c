@@ -1,4 +1,3 @@
-// Buggy example for debug50
 #include <cs50.h>
 #include <stdio.h>
 
@@ -12,7 +11,7 @@ int main(void)
 
 void print_column(int height)
 {
-    for (int i = 0; i <= height; i++)
+    for (int i = 0; i < height; i++)
     {
         printf("#\n");
     }
